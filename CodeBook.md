@@ -11,7 +11,7 @@ data.frame | Variable Names
 `yTrain`             | `"activityId"`                
 `subjectTrain`       | `"subjectId"`    
 
-Description of variables in the Tidy Data
+#### Description of variables in the Tidy Data
 Variable Name | Details
 --- | ---
 `activityName` | Factor with 6 levels WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
@@ -84,3 +84,4 @@ Variable Name | Details
 `fBodyBodyGyroJerkMagStd` | Average of Standard deviation frequency domainBody Body Gyro jerk magnitude 
 
 
+---
