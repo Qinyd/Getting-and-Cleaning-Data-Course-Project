@@ -20,8 +20,15 @@ README.md
 
 This is the script used to perform analysis on raw data to create a tidy datafile called tidyData.txt
 
-Functions of run_analysis.R Script
+Functions of run_analysis.R Script：
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
+To be more specific, the scrip works as following:
 Downloads the dataset from the URL mentioned above and unzips it to create UCI HAR Dataset folder
 Imports test and train datsets and creates data frames from then and then Merges the training and the test sets to create one data frame.
 Extracts a subset of data with only the measurements on the mean mean() and standard deviation std() for each measurement. Also excludes meanFreq()-X measurements or angle measurements where the term mean exists resulting in 66 measurement variables.
